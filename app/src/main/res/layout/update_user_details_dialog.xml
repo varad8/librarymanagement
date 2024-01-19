@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/updatedUsernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Username" />
+
+    <EditText
+        android:id="@+id/updatedRollNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Roll No" />
+
+    <EditText
+        android:id="@+id/updatedAddressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Address" />
+
+    <EditText
+        android:id="@+id/updatedMobileNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Updated Mobile No" />
+
+    <EditText
+        android:id="@+id/updatedLibraryCardIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Library Card ID" />
+
+    <EditText
+        android:id="@+id/updatedEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Updated Email" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginTop="10dp"
+        android:id="@+id/saveDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Details" />
+
+</LinearLayout>

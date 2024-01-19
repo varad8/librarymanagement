@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/house_chimney_24"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/circleuser_24"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/exit_24"/>
+</menu>

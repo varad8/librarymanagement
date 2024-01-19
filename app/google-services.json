@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "159787771632",
+    "firebase_url": "https://librarymanagement-29f39-default-rtdb.firebaseio.com",
+    "project_id": "librarymanagement-29f39",
+    "storage_bucket": "librarymanagement-29f39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159787771632:android:d3596ee7426d77180f4435",
+        "android_client_info": {
+          "package_name": "com.vrnitsolution.librarymanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ahGcKmX56wzwnbesNxVhCGeVNj3LMm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
