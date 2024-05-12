@@ -2,9 +2,18 @@
 
 The Library Management System Android app is a powerful solution for managing library operations seamlessly. This app is built using Android (Java/Kotlin) for the frontend and Firebase (Realtime Database, Authentication, Cloud Storage) for the backend, providing real-time data synchronization and cloud storage for a reliable and scalable library management experience.
 
-## Demo
+## Admin Credential Setup
 
-Check out the live demo of the project [here](https://www.vrnitsolution.tech/projects/f77d577f-55fe-4683-8882-8777b0d34e92).
+To set up admin credentials for your Firestore database, follow these steps:
+
+1. Create a collection named `Admin` in your Firestore database.
+
+2. Add a document to the `Admin` collection with the necessary admin credentials.
+
+   Example document structure:
+
+   ![Firestore Health App](https://github.com/varad8/librarymanagement/blob/main/Admin.png)
+
 
 ## Table of Contents
 
